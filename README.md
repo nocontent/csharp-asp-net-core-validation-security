@@ -1,6 +1,6 @@
 # Improve Security of an ASP.NET Core Application Using Validation
 
-In this project we’ll take an existing conference application written in ASP.NET Core, and implement validation in order to better secure our application from bad data entry, as well as injection attacks.
+In this project weï¿½ll take an existing conference application written in ASP.NET Core, and implement validation in order to better secure our application from bad data entry, as well as injection attacks.
 
 # Setup the Application
 
@@ -30,6 +30,15 @@ If you would rather use something other than Visual Studio:
 - Prevent overposting attacks
 
 ## Tasks necessary to complete implementation
+
+1. Add Required Attributes to Speaker
+2. Add DataType Attributes to Speaker
+3. Add StringLength Attributes to Speaker
+4. Inherit IValidatableObject on Speaker
+5. Add Client Side Validation to the Speaker Create View
+6. Add Validation Messages to Create View
+7. Add ModelState Validation to the Create Action
+8. Add Antiforgery and Binding to the Create Action
 
 __Note:__ This isn't the only way to accomplish implementation. However, this is what the project's tests are expecting. Implementing the features in a different way will likely result in being marked as incomplete / incorrect.
 
